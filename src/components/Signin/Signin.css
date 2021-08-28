@@ -1,0 +1,13 @@
+.Signin{
+    width:200px;
+    height:50px;
+    position:absolute;
+    top:50%;left:50%;
+    margin-top:-25px;
+    margin-left:-100px;
+    color:white;
+    background:#ff6600;
+    border:none;
+    border-radius:7px;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.3);
+}

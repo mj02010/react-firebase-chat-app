@@ -1,0 +1,16 @@
+.SideMenu{
+    width:250px;
+    height:100%;
+    position:fixed;
+    top:0px;
+    box-shadow:5px 0px 5px rgba(0,0,0,0.3);
+    background:white;
+    transition:0.2s ease-in-out;
+}
+
+.SideMenu-active{
+    left:0px;
+}
+.SideMenu-inactive{
+    left:-255px;
+}

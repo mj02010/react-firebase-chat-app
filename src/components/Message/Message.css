@@ -1,0 +1,43 @@
+:root{
+    --margin:60px;
+    --neumorphic:-3px -3px 3px white,
+    3px 3px 3px rgba(0,0,0,0.3);
+}
+
+.Message{
+    min-width:100px;
+    max-width:200px;
+    min-height:50px;
+    position:absolute;
+    border:none;
+    border-radius:30px;
+    box-shadow:var(--neumorphic);
+}
+
+.sent-text{
+    right:var(--margin);
+    border-top-right-radius:0px;
+    background:#ff6600;
+
+}
+.recived-text{
+    left:var(--margin);
+    border-top-left-radius:0px;
+    background:orange;
+}
+
+.profile{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    position:absolute;
+    transform:translate(0px,-7px);
+    border:2px solid silver;
+    box-shadow:var(--neumorphic);
+}
+.sent-profile{
+    right:0px;
+}
+.recived-profile{
+    left:0px;
+}
